@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>directorio</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">registrate</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>alumnos</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>ingresa tus datos</h1>
+	</div>
+	<div data-role="content">	
+		<fieldset style="width:400; height:850; color:blak">
+			 <form name="form1">
+			<div><label>Matricula:</label><br>
+			<br>
+			<input type="text" name="nombre" size="20" placeholder ="matricula" required>
+			<div><label>Nombre:</label><br>
+			<br>
+			
+			<input type="text" name="nombre" size="20" placeholder ="nombre" required> <br></div>
+			<div><label>Apellidos:</label><br>
+			<br>
+			<input type="text" name="apellidos" size="20" placeholder ="apellidos" required> <br></div>
+			<div><label>Direccion:</label><br>
+			<br>
+			<input type="text" name="direccion" size="20" placeholder ="direccion" required> <br></div>
+			<div><label>Telefono:</label><br>
+			<br>
+			<input type="text" name="telefono" size="20" placeholder ="telefono" required> <br></div>
+            <div><label>correo_electronico:</label><br>
+			<br>
+			<input type="text" name="correo_electronico" size="20" placeholder ="correo_electronico" required> <br></div>
+			<div>
+			<br>
+            <p>sexo</p>
+            <select name="sexo">
+			<option value="hombre">hombre</option>
+				<option value="mujer">mujer</option>
+            </select>
+			<br>
+			<br>
+			Fecha de nacimiento
+			<select name="dia">
+				<option value="31">31</option>
+				<option value="30">30</option>
+				<option value="29">29</option>
+				<option value="28">28</option>
+				<option value="27">27</option>
+				<option value="26">26</option>
+				<option value="25">25</option>
+				<option value="24">24</option>
+				<option value="23">23</option>
+				<option value="22">22</option>
+				<option value="21">21</option>
+				<option value="20">20</option>
+				<option value="19">19</option>
+				<option value="18">18</option>
+				<option value="17">17</option>
+				<option value="16">16</option>
+				<option value="15">15</option>
+				<option value="14">14</option>
+				<option value="13">13</option>
+				<option value="12">12</option>
+				<option value="11">11</option>
+				<option value="10">10</option>
+				<option value="9">9</option>
+				<option value="8">8</option>
+				<option value="7">7</option>
+				<option value="6">6</option>
+				<option value="5">5</option>
+				<option value="4">4</option>
+				<option value="3">3</option>
+				<option value="2">2</option>
+				<option value="1">1</option>
+			</select>
+   <select name="mes">
+    <option value="enero">Enero</option>
+    <option value="febrero">Febrero</option>
+    <option value="marzo">Marzo</option>
+    <option value="abril">Abril</option>
+    <option value="mayo">Mayo</option>
+    <option value="junio">Junio</option>
+    <option value="julio">Julio</option>
+    <option value="agosto">Agosto</option>
+    <option value="septiembre">Septiembre</option>
+    <option value="octubre">Octubre</option>
+    <option value="noviembre">Noviembre</option>
+    <option value="diciembre">Diciembre</option>
+   </select>
+   <select name="year">
+    <option value="1996">1996</option>
+    <option value="1997">1997</option>
+    <option value="1998">1998</option>
+    <option value="1999">1999</option>
+    <option value="2000">2000</option>
+    <option value="2001">2001</option>
+   </select>
+  
+   <div> 
+   <br>
+	
+			<br>
+			 <input type ="button" value ="guardar"  id ="guar">
+			<input type="reset" value="limpiar">
+			</div>
+		
+			</fieldset>
+		</form>		
+	</div>
+	</div>
+	<div data-role="footer">
+		<h4>registro alumno</h4>
+	</div>
+</div>
+
+
+</body>
+</html>
